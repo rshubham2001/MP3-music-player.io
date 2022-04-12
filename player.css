@@ -216,13 +216,13 @@ font-weight: bold;
     width: 100%;
     opacity: 0;
     transition: opacity 0.4s ease-in ;
-    /* animation: anim 10s linear infinite alternate; */
+    animation: anim 10s linear infinite alternate;
 }
-/* @keyframes anim{
+@keyframes anim{
     0%{transform: translateX(0);}
     50%{transform:translateX(-90%)}
     100%{transform: translateX(90%);}
-} */
+}
 .timebar{
     /* border: 1px solid black; */
     height: 15%;
