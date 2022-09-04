@@ -17,7 +17,9 @@ const wrapper = document.querySelector(".wrapper"),
 
 
 //load random music on reload
-let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);;
+// let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
+// strats with forst music every time.
+let musicIndex = 1;
 
 window.addEventListener("load", () => {
     loadMusic(musicIndex);
